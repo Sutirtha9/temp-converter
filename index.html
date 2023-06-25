@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Converter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body background="Background.jpg">
+        <div class="main">
+            <h1>Temperature Converter</h1>
+            <h6>By Sutirtha</h6>
+            <select id="menu">
+                <option selected disabled>Select An Option</option>
+                <option value="cel">Celcius</option>
+                <option value="far">Fahrenheit</option>
+                <option value="kel">Kelvin</option>
+            </select>
+            <input type="number" id="inputbox" placeholder="Please Select An Option"><br>
+            <p></p>
+            <button id="btn"><ion-icon name="sync-outline"></ion-icon></button><br>
+            <input type="text" id="outputbox1" placeholder="" readonly><br>
+            <input type="text" id="outputbox2" readonly>
+            <button id="reset"><ion-icon name="refresh-outline"></ion-icon></button>
+        </div>
+    </body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="script.js"></script>
+</html>
